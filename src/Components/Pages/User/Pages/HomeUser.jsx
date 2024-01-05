@@ -1,8 +1,13 @@
 import React from 'react'
+import Addpatient from './Addpatient'
 
 function HomeUser() {
-  return (
-    <div>HomeUser</div>
+  return ( 
+    <>
+      <div className="flex flex-row">
+        <Addpatient/>
+      </div>
+    </>   
   )
 }
 

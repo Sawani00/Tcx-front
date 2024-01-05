@@ -8,7 +8,12 @@ export default {
     fontFamily: {
       Gilroy: ["Gilroy-Regular", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      textColor: {
+        'theblue': '#3366cc',
+        'thereen': '#38CFBB',
+      },
+    },
   },
   plugins: [],
 }

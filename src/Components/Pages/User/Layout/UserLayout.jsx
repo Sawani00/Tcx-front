@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 
 function UserLayout() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center font-Gilroy" >
       <Navbar />
       <Outlet />
       {/* <Footer /> */}

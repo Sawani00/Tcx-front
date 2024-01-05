@@ -5,7 +5,7 @@ function why() {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-[50px]">Pourquoi Calendly ?</h1>
+        <h1 className="text-[50px] fff">Pourquoi Calendly ?</h1>
         <p className='w-1/2 mx-auto text-center'>Vous disposerez de toutes les fonctionnalités pour importer vos leads Inbouds &
           Outbound en temps réel depuis votre CRM, les qualifier, prendre RDV et gagner
           des points</p>
