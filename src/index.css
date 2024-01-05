@@ -3,13 +3,13 @@
 @tailwind utilities;
 @font-face {
     font-family: 'Gilroy';
-    src: url('C:\Users\Thinkpad L390\Downloads\gilroy') format('OTF');
+    src: url('./Fonts/gilroy') format('OTF');
     /* Add additional file formats if needed */
   }
-
 .fff{
 font-family: 'Gilroy';
 }
+
 html,body {
     overflow-x: hidden;
 }
