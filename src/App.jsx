@@ -5,6 +5,7 @@ import HomeUser from "./Components/Pages/User/Pages/HomeUser";
 import Login from "./Components/Pages/Auth/Login";
 import Signup from "./Components/Pages/Auth/Signup";
 import UserLayout from "./Components/Pages/User/Layout/UserLayout";
+import Congrats from "./Components/Pages/Home/Congrats";
 
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
         {/* Auth routes, no layout */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Signup />} />
+        <Route path="/congrats" element={<Congrats/>}></Route>
       </Routes>
     </BrowserRouter>
   );
