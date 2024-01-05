@@ -27,7 +27,7 @@ export default function App() {
         )}
         {/* Auth routes, no layout */}
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Signup />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
   );
