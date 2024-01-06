@@ -1,5 +1,6 @@
 import LabeledInput from "./Labeledinput"
 import LabelInputpen from "./Labelinputpen"
+import Importfileclick from "./Importfileclick"
 
 function Editpatient() {
   return (
@@ -9,7 +10,7 @@ function Editpatient() {
                 <h1 className="font-[Gilroybold] text-[40px] text-[#023E8A]">Patient Name</h1>
                 <button className='bg-teal-500 text-white rounded-lg px-4 py-2 my-10 font-[Gilroy] w-[30%] text-[15px]'>Add Appointment</button>
             </div>
-            <div className="grid grid-cols-2 grid-rows-3 gap-7">
+            <div className="grid grid-cols-2 grid-rows-3 gap-7 mb-7">
                 <LabelInputpen type="text" label="First Name" placeholder="first name"/>
                 <LabelInputpen type="text" label="Last Name" placeholder="last name"/>
                 <LabelInputpen type="number" label="Age" placeholder="age"/>
@@ -32,8 +33,9 @@ function Editpatient() {
             <input type="text" name="description" placeholder="Description" className="h-[80px] mt-1 p-2 border border-gray-300 rounded-md w-full font-[Gilroy] mb-1" />
             <button className='bg-[#BBC1C1] text-white rounded-lg px-4 py-3 my-10 font-[Gilroy] w-[100%] mx-auto'>Save</button>
         </div>
-        <div className="w-[40%] mx-10">
-            <h1></h1>
+        <div className="w-[40%] mr-[10%]">
+            <h1 className="font-[Gilroybold] text-[#023E8A] text-[25px] mt-10">Documents</h1>
+            <Importfileclick/>
         </div>
     </div>
   )

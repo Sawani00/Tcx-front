@@ -10,7 +10,7 @@ const LabeledInput = ({ label, placeholder, type }) => {
         type={type}
         id="input"
         placeholder={placeholder}
-        className="mt-1 p-2 border border-gray-300 rounded-md w-full font-[Gilroy]"
+        className="mt-1 p-2 border border-gray-300 rounded-[11px] w-full font-[Gilroy]"
       />
     </div>
   );
