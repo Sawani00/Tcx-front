@@ -6,6 +6,7 @@ import Login from "./Components/Pages/Auth/Login";
 import Signup from "./Components/Pages/Auth/Signup";
 import UserLayout from "./Components/Pages/User/Layout/UserLayout";
 import Congrats from "./Components/Pages/Home/Congrats";
+import Userprofile from "./Components/Pages/User/Pages/Userprofile";
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           <Route element={<UserLayout />} path="/user">
             <Route index element={<HomeUser />} />
             {/* User routes */}
+            <Route index element={<Userprofile/>}></Route>
           </Route>
         )}
         {/* Auth routes, no layout */}

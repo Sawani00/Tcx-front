@@ -15,7 +15,7 @@ const Labelpen = ({ type, label, placeholder, initialValue, onChange }) => {
 
   return (
     <div className="mb-4">
-      {label && <label className="block text-sm font-medium text-gray-700">{label}</label>}
+      {label && <label className="block text-sm font-medium text-gray-700 text-theblue font-[Gilroy] font-bold">{label}</label>}
       <div className="relative">
         <input
           type={type || 'text'}
