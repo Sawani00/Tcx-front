@@ -11,7 +11,7 @@ export default {
     extend: {
       textColor: {
         'theblue': '#3366cc',
-        'thereen': '#38CFBB',
+        'thegreen': '#38CFBB',
       },
     },
   },
