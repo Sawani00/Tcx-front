@@ -12,23 +12,17 @@ function why() {
         <Card
           icon="../../../../public/icon1.svg"
           title="Efficient Management"
-          text="Vous trouverez un dashboard contenant les KPIs les plus importantes de votre
-          métier (taux de conversion, nombre de RDV, performance …) afin de faciliter le
-          suivi et le reporting"
+          text="The platform offers comprehensive features to efficiently qualify leads, ensuring a streamlined and effective lead management process"
         />
         <Card
           icon="../../../../public/icon2.svg"
           title="Time-saving"
-          text="Huntease collabore avec des opérateurs partout dans le monde afin de vous
-          offrir la meilleure qualité d’appel, le tout dans un logiciel conçu pour
-          optimiser le processus de prospection"
+          text="Take advantage of the scheduling capabilities on our website to easily book and manage appointments."
         />
         <Card
           icon="../../../../public/icon3.svg"
           title="User friendly"
-          text="Vous aurez toujours les bonnes questions de qualification sous les yeux.
-          Créez vos guides conversationnels et partagez-les avec votre équipe en deux
-          clics"
+          text="Enjoy a hassle-free experience while efficiently managing your leads and appointments."
         />
       </div>
     </>
